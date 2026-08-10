@@ -17,7 +17,10 @@ spec:
     spec:
       containers:
         - name: backend
-          image: YOUR_DOCKERHUB_USERNAME/devops-challenge:latest
+          image: adityakul548/devops-challenge:latest
+
+
+
 
           ports:
             - containerPort: 5000
