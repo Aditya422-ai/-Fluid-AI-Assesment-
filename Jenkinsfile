@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'YOUR_DOCKERHUB_USERNAME/devops-challenge'
+        DOCKER_IMAGE = 'adityakul548/devops-challenge'
         IMAGE_TAG = "${BUILD_NUMBER}"
         DOCKER_CREDENTIALS = 'dockerhub-credentials'
     }

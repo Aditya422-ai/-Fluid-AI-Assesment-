@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: adityakul548/devops-challenge:latest
+          image: IMAGE_PLACEHOLDER
 
 
 
